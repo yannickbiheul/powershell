@@ -4,14 +4,14 @@ $folderPath = "C:\Users\yannick.biheul\CHC\test"
 $newDate = Get-Date "2023-06-20 12:00:00"
 
 # NOUVEAUX FICHIERS
-$fileNames = @("test11.txt", "test12.txt", "test13.txt", "test14.txt", "test15.txt", "test16.txt", "test17.txt", "test18.txt", "test19.txt", "test20.txt")
+$fileNames = @("test11.wdz", "test12.wdz", "test13.wdz", "test14.wdz", "test15.wdz", "test16.wdz", "test17.wdz", "test18.wdz", "test19.wdz", "test20.wdz")
 foreach ($fileName in $fileNames) {
 	$filePath = Join-Path $folderPath $fileName
 	New-Item -Path $filePath -ItemType File
 }
 
 # VIEUX FICHIERS
-$fileNamesOld = @("test1.txt", "test2.txt", "test3.txt", "test4.txt", "test5.txt", "test6.txt", "test7.txt", "test8.txt", "test9.txt", "test10.txt")
+$fileNamesOld = @("test1.wdz", "test2.wdz", "test3.wdz", "test4.wdz", "test5.wdz", "test6.wdz", "test7.wdz", "test8.wdz", "test9.wdz", "test10.wdz")
 foreach ($fileName in $fileNamesOld) {
 	$filePath = Join-Path $folderPath $fileName
 	New-Item -Path $filePath -ItemType File
