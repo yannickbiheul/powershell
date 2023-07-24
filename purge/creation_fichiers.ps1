@@ -1,6 +1,6 @@
 # DOSSIER CIBLE
 $folderPath = "C:\Users\yannick.biheul\CHC\test"
-# DATE
+# VIEILLE DATE
 $newDate = Get-Date "2023-06-20 12:00:00"
 
 # NOUVEAUX FICHIERS
