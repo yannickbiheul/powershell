@@ -1,5 +1,6 @@
 # DOSSIER CIBLE
 $folderPath = "C:\Users\yannick.biheul\CHC\test"
+
 # DATE LIMITE
 $limitDate = (Get-Date).AddDays(-30)
 
